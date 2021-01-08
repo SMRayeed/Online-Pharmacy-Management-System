@@ -1,0 +1,260 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* -------- Main Code ----- INDEX ----------*/
+
+.wrapper
+{
+    height: 980px;
+    width: 1903px;
+}
+
+header
+{
+    height: 175px;
+    width: 1903px;
+}
+
+section
+{
+    height: 660px;
+    width: 1903px;
+    background-color: black;
+    margin-top: 0px;
+}
+
+section .section_image
+{
+    height: 650px;
+    width: 1903px;
+    background-color: black;
+    margin-top: 0px;
+    background-image: url("Images/1.jpg");
+}
+
+footer
+{
+    height: 150px;
+    width: 1903px;
+    background-color: black;   
+    background-image: url("Images/2.jpg"); 
+}
+
+li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+/*nav
+{
+    float: right;
+    word-spacing: 30px;
+    padding: 40px;
+}
+
+nav li
+{
+    display: inline-block;
+    line-height: 150px;
+}*/
+
+.logo
+{
+    float: left;
+    padding-left: 60px; 
+    padding-top: 20px;
+}
+
+.logo img
+{
+    padding-left: 120px; 
+}
+
+.logo_bootstrap
+{
+    float: left;
+    padding-left: 60px; 
+    padding-top: 25px;
+}
+
+.logo_bootstrap img 
+{
+    padding-left: 150px; 
+}
+
+.box {
+    text-align: center;
+    height: 260px;
+    width: 660px;
+    background-color: #0000006e;
+    margin: 120px auto;
+    opacity: 0.50;
+}
+
+
+
+/* ------------ Student Login ----------- */
+
+section .std_login_image
+{
+    height: 650px;
+    width: 1903px;
+    background-color: black;
+    margin-top: 0px;
+    background-image: url("Images/std_login.jpg");
+    background-size: 1950px 650px;
+}
+
+.box1 {
+    height: 480px;
+    width: 1050px;
+    background-color: #000000eb;
+    margin: 80px auto;
+    opacity: 0.75;
+}
+
+p
+{
+    padding-right: 30px;
+}
+
+input
+{
+    height: 45px;
+    width: 620px;
+}
+
+form .login
+{
+    margin: auto 220px;
+}
+
+form .login_button
+{
+    padding-top: 18px;
+    margin: auto 200px;
+}
+
+/* ------------ Student Registration ----------- */
+section .std_reg_image
+{
+    height: 650px;
+    width: 1903px;
+    background-color: black;
+    margin-top: 0px;
+    background-image: url("Images/reg.jpg");    \
+    background-size: 1903px 600px;
+}
+
+.box2
+{
+    height: 600px;
+    width: 500px;
+    background-color: #00000078;
+    margin: 80px auto;
+    opacity: 0.75;    
+}
+
+form .registration
+{
+    margin: auto 75px;
+}
+
+form .reg_button
+{
+    padding-top: 15px;
+    margin: auto 40px;
+}
